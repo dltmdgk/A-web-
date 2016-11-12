@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Audiowide|Black+Ops+One|Bungee|Dancing+Script:700|Fontdiner+Swanky|Monoton|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+.html,body,menu,div,section,ul,li{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+a{
+  text-decoration: none;
+}
+#header{
+  color:pink;
+  margin-left: 210px;
+  margin-right:30px;
+  font-size:40px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: lighter;
+}
+
+.menu ul{
+  width:1400px;
+  height:50px;
+  background:black;
+  list-style:none;
+}
+.menu ul li{
+  font-family: 서울남산 장체L;
+}
+.menu>ul>li{
+  display: inline-block;
+}
+.menu ul li a{
+  font-size:16px;
+  margin-left: 13px;
+  color:white;
+  text-decoration:none;
+}
+#mainmenu{
+  margin-top: 5px;
+  vertical-align: super;
+  margin-left: 70px;
+}
+#main2menu{
+  vertical-align: super;
+  margin-left: 300px;
+}
+.menu a:hover {
+	color:#D4F4FA;
+}
+.menu li ul{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width:100px;
+  z-index:200;
+  height: auto;
+}
+.menu > ul > li > ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: none;
+}
+.menu> ul > li:hover > ul {
+  display: block;
+}
+.menu ul li ul li{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.undermenu ul{
+  height: 160px;
+  weight:1400px;
+  background-color: #f3f3f3;
+  position: relative;
+}
+.undermenu ul li{
+  padding-left: 220px;
+  padding-top: 30px;
+  color: pink;
+  font-size: 60px;
+  font-family: 'Bungee', cursive;
+  font-weight: lighter;
+}
+iframe{
+  position: relative; left:400px; top: 50px;
+}
+iframe.under1{
+  position: relative;
+   top: 80px; left: 234px;
+  float: left;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
