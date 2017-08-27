@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Audiowide|Black+Ops+One|Bungee|Dancing+Script:700|Fontdiner+Swanky|Monoton|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.html,body,menu,div,section,ul,li{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+a{
+  text-decoration: none;
+}
+#header{
+  color:pink;
+  margin-left: 210px;
+  margin-right:30px;
+  font-size:40px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: lighter;
+}
+
+.menu ul{
+  width:1400px;
+  height:50px;
+  background:black;
+  list-style:none;
+}
+.menu ul li{
+  font-family: 서울남산 장체L;
+}
+.menu>ul>li{
+  display: inline-block;
+}
+.menu ul li a{
+  font-size:16px;
+  margin-left: 13px;
+  color:white;
+  text-decoration:none;
+}
+#mainmenu{
+  margin-top: 5px;
+  vertical-align: super;
+  margin-left: 70px;
+}
+#main2menu{
+  vertical-align: super;
+  margin-left: 300px;
+}
+.menu a:hover {
+	color:#D4F4FA;
+}
+.menu li ul{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width:100px;
+  z-index:200;
+  height: auto;
+}
+.menu > ul > li > ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: none;
+}
+.menu> ul > li:hover > ul {
+  display: block;
+}
+.menu ul li ul li{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.undermenu ul{
+  height: 180px;
+  weight:1400px;
+  background-color: #f3f3f3;
+  position: relative;
+}
+.undermenu ul li{
+  padding-left: 220px;
+  padding-top: 40px;
+  color: pink;
+  font-size: 60px;
+  font-family: 'Bungee', cursive;
+  font-weight: lighter;
+}
+.schedule_title{
+  position: relative;
+  height: 38px;
+  width: 1000px;
+  background: pink;
+  margin-top: 27px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+.schedule_title h3{
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0 0px 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+.under_table{
+  float: left;
+  width: 40%;
+  position: relative;
+  left: 100px;
+  padding-right: 60px;
+  padding-left: 40px;
+}
+.under_table th.sun{
+  color: #e71a5f;
+}
+.under_table th{
+  height: 40px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #5e5e5d;
+  border-bottom: 1px solid #d3d3d3;
+}
+.under_table td.sun{
+  border-left: 1px solid #d3d3d3;
+}
+.under_table td{
+  position: relative;
+  width: 50px;
+  height: 40px;
+  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  vertical-align: top;
+  color: #858480;
+  font: 8px;
+}
+.under_table .on{
+  padding: 3px 0 0 3px;
+  color: #e71a5f;
+  background-color: #ededed;
+  height: 100%;
+}
+.schedule_list{
+  float: right;
+  position: relative;
+  width: 540px;
+ padding-right: 200px;
+ padding-top: 20px;
+
+}
+.schedule_list ul li{
+  margin: 20px;
+  display: block;
+  border-top: solid 1px #ccc;
+}
+.schedule_list p{
+  font-family: 'Nanum Pen Script', cursive;
+  padding: 0;
+  font-size: 18px;
+  line-height: 8px;
+}
+.under_table .on a{
+  display: block;
+  height: 40px;
+  color: #e71a5f;
+  padding: 0;
+  margin: 0;
+}
